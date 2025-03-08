@@ -13,7 +13,7 @@ sudo netfilter-persistent save
 ```
 The port 8501, 443 and 80 should be in Ingress Rules
 
-whatch this: https://www.youtube.com/watch?v=gyizrcHfkcU
+whatch this: [https://www.youtube.com/watch?v=gyizrcHfkcU](https://www.youtube.com/watch?v=yWVD6qmQrb8)
 
 ## Streamlit Setup
 

@@ -3,6 +3,18 @@ Follow [Amazon Linux Setup Tutorial](https://docs.aws.amazon.com/AWSEC2/latest/U
 - Security group: allow all traffic for ssh/http/https (also add inbound for port 8501 for all ip)
 - Storage any size (I use 40GB)
 
+## Setup Oracle VM
+```
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+sudo netfilter-persistent save
+
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 8501 -j ACCEPT
+sudo netfilter-persistent save
+```
+The port 8501, 443 and 80 should be in Ingress Rules
+
+whatch this: https://www.youtube.com/watch?v=gyizrcHfkcU
+
 ## Streamlit Setup
 
 Once ssh'd into the instance, run the following commands:

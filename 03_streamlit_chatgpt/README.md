@@ -13,7 +13,7 @@ sudo netfilter-persistent save
 ```
 The port 8501, 443 and 80 should be in Ingress Rules
 
-whatch this: [https://www.youtube.com/watch?v=gyizrcHfkcU](https://www.youtube.com/watch?v=yWVD6qmQrb8)
+whatch this: [How to Create an Always Free Website on the Oracle Cloud](https://www.youtube.com/watch?v=yWVD6qmQrb8)
 
 ## Streamlit Setup
 
